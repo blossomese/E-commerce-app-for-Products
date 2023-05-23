@@ -1,0 +1,34 @@
+{
+  "name": "my-note-app",
+  "version": "1.0.0",
+  "description": "React note app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql"
+  ],
+  "author": "Blossom",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  }
+}
